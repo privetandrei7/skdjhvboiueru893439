@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "MARI",
+    "slug": "mari-community",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "scheme": "mari",
+    "android": {
+      "package": "com.mari.community",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "backgroundColor": "#F4EFE5"
+      }
+    },
+    "plugins": ["expo-router"],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
