@@ -42,7 +42,7 @@ export default function RootLayout() {
       })}
     >
       <Tabs.Screen name="index" options={{ title: "Главная" }} />
-      <Tabs.Screen name="messenger" options={{ title: "Мессенджер" }} />
+      <Tabs.Screen name="messenger" options={{ title: "Чаты" }} />
       <Tabs.Screen name="map" options={{ title: "Карта" }} />
       <Tabs.Screen name="events" options={{ title: "События" }} />
       <Tabs.Screen name="profile" options={{ title: "Профиль" }} />
