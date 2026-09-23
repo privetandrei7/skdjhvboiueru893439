@@ -17,9 +17,9 @@ export default function RootLayout() {
         tabBarActiveTintColor: "#174B3B",
         tabBarInactiveTintColor: "#9A9B94",
         tabBarStyle: {
-          height: 72,
-          paddingTop: 8,
-          paddingBottom: 10,
+          height: 88,
+          paddingTop: 7,
+          paddingBottom: 18,
           backgroundColor: "#FFFFFF",
           borderTopWidth: 1,
           borderTopColor: "#E7E5DE",
@@ -28,6 +28,7 @@ export default function RootLayout() {
         tabBarLabelStyle: {
           fontSize: 10,
           fontWeight: "700",
+          marginBottom: 1,
         },
         tabBarIcon: ({ color, focused }) => (
           <Text style={{ fontSize: focused ? 25 : 23, color }}>
